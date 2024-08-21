@@ -1,6 +1,6 @@
 ### Section 1: Network Protocol Identification
 
-During the analysis of website traffic using the Tcpdump tool, it was determined that the website was utilizing the HTTP protocol on port 80. HTTP is an insecure protocol as it does not employ encryption, leaving the data exchanged between the website and clients vulnerable to interception and tampering.
+During the analysis of website traffic using the Tcpdump tool, it was determined that the website was utilizing the HTTP protocol on port 80 with TCP hand-shake. HTTP is an insecure protocol as it does not employ encryption, leaving the data exchanged between the website and clients vulnerable to interception and tampering.
 
 ### Section 2: Incident Documentation
 
